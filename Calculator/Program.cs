@@ -12,6 +12,7 @@ namespace zadanie2
         {
             
                 int first, second, choice;
+                var p = new Calculator();
                 while (true)
                 {
                     //   a= Console.ReadLine();
@@ -30,23 +31,23 @@ namespace zadanie2
           
                  if (choice == 1)
                     {
-                        var p = new Plus();
-                        p.Result(first, second);
+                       
+                        p.Plus(first, second);
                     }
                 else if (choice == 2)
                     {
-                        var m = new Minus();
-                        m.Result(first, second);
+                      
+                        p.Minus(first, second);
                     }
                 else if (choice == 3)
                     {
-                        var u = new Multiply();
-                        u.Result(first, second);
+                       
+                       p.Multiply(first, second);
                     }
                 else if (choice == 4)
                     {
-                        var d = new Division();
-                        d.Result(first, second);
+                       
+                        p.Division(first, second);
                     }
 
             }

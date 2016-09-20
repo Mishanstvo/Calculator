@@ -7,48 +7,39 @@ using System.Threading.Tasks;
 namespace zadanie2
 {
   
-    class Plus{
+ public  class Calculator{
         
-        public void Result(int first, int second)
+        public int Plus(int first, int second)
          {
              Console.WriteLine("Результат:");
              Console.WriteLine(first + second);
+             int result = first + second;
+             return result;
          }
-
-    }
-
-    class Minus
-    {
-
-        public void Result(int first, int second)
+        public int Minus(int first, int second)
         {
             Console.WriteLine("Результат:");
             Console.WriteLine(first - second);
+            int result = first - second;
+            return result;
         }
-
-    }
-    class Multiply
-    {
-
-        public void Result(int first, int second)
+        public int Multiply(int first, int second)
         {
             Console.WriteLine("Результат:");
             Console.WriteLine(first * second);
+            int result = first * second;
+            return result;
         }
-
-    }
-    class Division
-    {
-
-        public void Result(int first, int second)
+        public int Division(int first, int second)
         {
             Console.WriteLine("Результат:");
             Console.WriteLine(first / second);
+            int result = first / second;
+            return result;
         }
-       
-
-    }
-    
+      
+ }
+     
 
 
    

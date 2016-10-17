@@ -3,3 +3,4 @@ Calculator/obj/
 Testcalc/obj/
 Testcalc/bin/
 packages/
+*.suo
